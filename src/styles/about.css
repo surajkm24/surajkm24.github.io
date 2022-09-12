@@ -1,0 +1,95 @@
+#about{
+    background-color:var(--bglightabout);
+    width:100vw;
+    box-sizing: border-box;
+    padding:0px 40px;
+    padding-bottom: 50px;
+}
+
+#about>p:first-child{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color:var(--plight); 
+    padding-top: 50px;
+}
+
+#about>p:first-child::after{
+    content: 'Me';
+    color:var(--namelight)
+}
+
+#myselfdesc{
+    margin-top:30px;
+}
+
+#mysitem{
+display: flex;
+gap:10px;
+margin-bottom:15px;
+}
+#mysitem>div{
+    margin-top:2px;
+}
+
+#mysitem>p{
+  color:var(--plight);
+  font-size: 15.5px;
+  font-weight: 450;
+  text-align: justify;
+  opacity: 0.9;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+#mysitem>p>span{
+    color:var(--namelight);
+    font-weight: 500;
+}
+
+#myimg{
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+}
+
+#myimg>img{
+    width:50%;
+    border-radius: 20px;
+}
+
+@media all and (min-width:795px) {
+    #about{
+        padding:0px 55px;
+        padding-bottom: 50px;
+    }
+    #aboutcontent{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #myselfdesc{
+        width:65%
+    }
+
+    #mysitem>p{
+        font-size: 17px;;
+    }
+
+    #myimg{
+        padding:0px;
+        justify-content:space-around;
+    }
+
+    #myimg>img{
+        width:80%;
+    }
+}
+
+@media all and (min-width:1080px) {
+
+    #mysitem>p{
+        font-size: 20px;;
+    }  
+}
