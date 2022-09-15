@@ -12,6 +12,7 @@
     text-align: center;
     color:var(--plight); 
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 
 #skill>p:first-child>span{
@@ -19,20 +20,100 @@
 }
 
 .skillIc{
-    font-size: 40px;
+    font-size: 80px;
+    width: fit-content;
+    margin: auto;
+    transition: font-size 0.7s ease-in-out;
 }
 
 #skillset{
     display:grid;
     grid-template-columns: repeat(5,auto);
+    justify-content: space-evenly;
+    gap: 20px 20px;
 }
 
-/* #skillset svg{
-    height:30px;
-    width:30px;
+#skillset>div{
+  padding:20px;
+  box-sizing: border-box;
+  background-color: var(--bglightedskill);
+  border-radius:10px;
+  color:var(--plight);
+  width:135px;
+  transition: transform 0.7s ease-in-out,background 0.7s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;  
+ text-align: center;
 }
 
-#skillset svg g{
-    fill:black;
-    stroke:black;
-} */
+#skillset>div:hover{
+    opacity:0.9;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#skillset img{
+    width:80px
+}
+
+#skillset div>p{
+    text-align: center;
+    font-weight: 550;
+}
+
+@media all and (max-width:795px){
+    #skillset{
+        grid-template-columns: repeat(3,auto);
+    }
+    .skillIc{
+        font-size: 70px;
+    }
+    #skillset div>p{
+        text-align: center;
+        font-weight: 550;
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width:500px){
+    #skillset{
+        grid-template-columns: repeat(2,auto);
+    }
+    .skillIc{
+        font-size: 60px;
+    }
+    #skillset div>p{
+        text-align: center;
+        font-weight: 550;
+        font-size: 14px;
+    }
+    #skill{
+        padding-bottom: 25px;
+    }
+    
+    #skill>p:first-child{
+       padding-top:25px;
+       margin-bottom:18px;
+    }
+}
+
+@media all and (max-width:340px){
+    .skillIc{
+        font-size: 50px;
+    }
+    #skillset div>p{
+        text-align: center;
+        font-weight: 550;
+        font-size: 13px;
+    }
+
+    #skillset>div{
+        width:120px;
+    }
+}
+
+@media all and (max-width:280px){
+    #skillset{
+        grid-template-columns: repeat(1,auto)
+    }
+}

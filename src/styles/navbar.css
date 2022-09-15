@@ -9,12 +9,13 @@
     align-items: center;
     z-index: 2;
     transition:padding 0.4s linear,background 1s ease-in-out;
-    border-bottom: 2px solid var(--navTextHover);
+    /* border-bottom: 2px solid var(--navTextHover); */
     position:fixed;
     top:0px;
     width:100vw;
     box-sizing: border-box;
     background-color: var(--backgroundnav);
+    box-shadow: 0.1px 0.1px 10px -3px var(--navTextHover)
 }
 
 .nav>div>svg{

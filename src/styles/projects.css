@@ -1,0 +1,19 @@
+#projects{
+    background-color:var(--bglightproject);
+    width:100vw;
+    box-sizing: border-box;
+    padding:0px 40px;
+    padding-bottom: 50px;
+}
+
+#projects>p:first-child{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:var(--plight); 
+    padding-top: 50px;
+}
+
+#projects>p:first-child>span{
+    color:var(--namelight);
+}
