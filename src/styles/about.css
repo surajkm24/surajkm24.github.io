@@ -1,3 +1,7 @@
+*{
+    transition: background-color 1s ease-in-out, color 1s ease-in-out
+}
+
 #about{
     background-color:var(--bglightabout);
     width:100vw;
@@ -21,6 +25,7 @@
 
 #myselfdesc{
     margin-top:30px;
+    order:1
 }
 
 #mysitem{
@@ -92,4 +97,13 @@ margin-bottom:15px;
     #mysitem>p{
         font-size: 20px;;
     }  
+}
+
+@media all and (max-width:500px){
+    #about{
+        padding-bottom:28px;
+    }
+    #about>p:first-child{
+        padding-top:25px;
+    }
 }
