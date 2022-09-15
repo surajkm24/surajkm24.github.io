@@ -55,7 +55,7 @@ export const Skills = () => {
                 <SiHeroku style={{ color: "white", background: "#564d80", padding: "3px", borderRadius: "5px" }} className='skillIc' />
             </div>
             <div>
-                <img src="https://mohit-portfolio.vercel.app/assets/mongoose.20aad1bc.png" class="chakra-image css-0" />
+                <img src="https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/mongoose.png"/>
             </div>
         </div>
     </div>
