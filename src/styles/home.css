@@ -1,7 +1,9 @@
 * {
     padding: 0px;
     margin: 0px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out
 }
+
 
 #home {
     background-color: var(--bglight);
