@@ -34,7 +34,7 @@ export const Navbar = () => {
         }, -100)
     }, [drawer])
 
-    return <div className='nav' style={{ background: light ? '#edf2f8' : '#0a192f', '--navTextHover': light ? "#dc143c" : "#64ffda" }}>
+    return <div className='nav' style={{ '--backgroundnav': light ? '#edf2f8' : '#0a192f', '--navTextHover': light ? "#dc143c" : "#64ffda" }}>
         <div>
             <svg viewBox="0 0 100 120" style={{ height: "55px", width: "62px" }} >
                 <polygon fill={light ? "#edf2f8" : '#0a192f'} className="Shape" stroke={light ? "#dc143c" : "#64ffda"} stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="39 2 0 22 0 67 39 90 78 68 78 23"></polygon>

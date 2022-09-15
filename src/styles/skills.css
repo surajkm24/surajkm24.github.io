@@ -1,0 +1,38 @@
+#skill{
+    background-color:var(--bglightskill);
+    width:100vw;
+    box-sizing: border-box;
+    padding:0px 40px;
+    padding-bottom: 50px;
+}
+
+#skill>p:first-child{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color:var(--plight); 
+    padding-top: 50px;
+}
+
+#skill>p:first-child>span{
+    color:var(--namelight);
+}
+
+.skillIc{
+    font-size: 40px;
+}
+
+#skillset{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+/* #skillset svg{
+    height:30px;
+    width:30px;
+}
+
+#skillset svg g{
+    fill:black;
+    stroke:black;
+} */
