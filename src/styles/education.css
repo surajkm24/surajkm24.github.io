@@ -78,19 +78,19 @@
 
 .educardDet>p:first-child{
     color:var(--namelight);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .educardDet>p:nth-child(2){
     color:var(--plight);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 7px;
 }
 
 .educardDet>p:nth-child(3){
     color:var(--plight);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 12px;
 }
@@ -100,7 +100,7 @@
 .educardDet>p:last-child{
     color:var(--plight);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     opacity:0.8;
     margin-top: 12px;
 }
@@ -187,19 +187,19 @@
     }
     .educardDet>p:first-child{
         color:var(--namelight);
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
     }
     .educardDet>p:nth-child(2){
         color:var(--plight);
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         margin-top: 5px;
     }
     
     .educardDet>p:nth-child(3){
         color:var(--plight);
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
         margin-top: 7px;
     }
@@ -209,7 +209,7 @@
     .educardDet>p:last-child{
         color:var(--plight);
         font-weight: 500;
-        font-size: 13px;
+        font-size: 12px;
         opacity:0.8;
         margin-top: 7px;
     }

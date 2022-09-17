@@ -39,7 +39,7 @@ margin-bottom:15px;
 
 #mysitem>p{
   color:var(--plight);
-  font-size: 15.5px;
+  font-size: 13.5px;
   font-weight: 450;
   text-align: justify;
   opacity: 0.9;
@@ -64,6 +64,18 @@ margin-bottom:15px;
     border-radius: 20px;
 }
 
+@media all and (min-width:765px){
+    #mysitem>p{
+        font-size: 14.2px;;
+    }
+}
+
+@media all and (min-width:895px){
+    #mysitem>p{
+        font-size: 14.9px;;
+    }
+}
+
 @media all and (min-width:970px) {
     #about{
         padding:0px 40px;
@@ -79,7 +91,7 @@ margin-bottom:15px;
     }
 
     #mysitem>p{
-        font-size: 17px;;
+        font-size: 15.5px;;
     }
 
     #myimg{
@@ -96,7 +108,7 @@ margin-bottom:15px;
 @media all and (min-width:1080px) {
 
     #mysitem>p{
-        font-size: 20px;;
+        font-size: 18px;;
     }  
 }
 

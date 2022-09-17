@@ -58,6 +58,7 @@
 #skillset div>p{
     text-align: center;
     font-weight: 550;
+    font-size: 14px;
 }
 
 @media all and (max-width:795px){
@@ -70,7 +71,7 @@
     #skillset div>p{
         text-align: center;
         font-weight: 550;
-        font-size: 16px;
+        font-size: 13px;
     }
 
 }
@@ -85,7 +86,7 @@
     #skillset div>p{
         text-align: center;
         font-weight: 550;
-        font-size: 14px;
+        font-size: 12px;
     }
     #skill{
         padding:0px 25px;
@@ -107,7 +108,7 @@
     #skillset div>p{
         text-align: center;
         font-weight: 550;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     #skillset>div{
