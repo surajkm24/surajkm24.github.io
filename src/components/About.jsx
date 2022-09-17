@@ -48,7 +48,7 @@ export const About = () => {
                 </div>
             </div>
             <div id='myimg'>
-                <img src='https://github.com/surajkm24/surajkm24.github.io/blob/master/assets/myimg.png?raw=true'/>
+                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/myImg.jpg'/>
             </div>
         </div>
     </div>

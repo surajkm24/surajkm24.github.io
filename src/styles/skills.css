@@ -8,7 +8,7 @@
 
 #skill>p:first-child{
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     color:var(--plight); 
     padding-top: 50px;
@@ -88,12 +88,15 @@
         font-size: 14px;
     }
     #skill{
+        padding:0px 25px;
         padding-bottom: 25px;
     }
     
     #skill>p:first-child{
        padding-top:25px;
        margin-bottom:18px;
+       /* font-size: 26px; */
+
     }
 }
 
