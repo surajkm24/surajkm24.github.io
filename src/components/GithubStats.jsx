@@ -8,11 +8,11 @@ import { useRef } from 'react';
 export const GithubStats = () => {
     const { light } = useContext(ThemeContext);
     const calender = useRef()
-    useEffect(()=>{
-        setTimeout(()=>{
-            GitHubCalendar(calender.current, "surajkm24", { responsive: true });
-        },10000)
-    },[])
+    // useEffect(()=>{
+    //     setTimeout(()=>{
+    //         GitHubCalendar(calender.current, "surajkm24", { responsive: true });
+    //     },10000)
+    // },[])
     return <div id='githubstats' style={{ '--bglightstats': light ? "#edf2f8" : "#0a192f", '--bglight2stats': light ? "white" : "#152235", '--plight': light ? 'black' : 'white', '--namelight': light ? "#dc143c" : "#64ffda", '--rolelight': light ? "#edf2f8" : "#273849" }}>
         <p>Sta<span>tis</span>tics <SiGithub id='gitStIc' fontSize={'25px'} style={{ transition: "none", '--icColor': light ? "black" : "white" }} /></p>
         <div id='statCont'>
