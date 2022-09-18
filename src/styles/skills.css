@@ -1,74 +1,76 @@
-#skill{
-    background-color:var(--bglightskill);
-    width:100vw;
+#skill {
+    background-color: var(--bglightskill);
+    width: 100vw;
     box-sizing: border-box;
-    padding:0px 40px;
+    padding: 0px 40px;
     padding-bottom: 50px;
 }
 
-#skill>p:first-child{
-    font-size: 32px;
+#skill>p:first-child {
+    font-size: 33px;
     font-weight: 700;
     text-align: center;
-    color:var(--plight); 
+    color: var(--plight);
     padding-top: 50px;
     margin-bottom: 30px;
 }
 
-#skill>p:first-child>span{
-    color:var(--namelight);
+#skill>p:first-child>span {
+    color: var(--namelight);
 }
 
-.skillIc{
+.skillIc {
     font-size: 80px;
     width: fit-content;
     margin: auto;
     transition: font-size 0.7s ease-in-out;
 }
 
-#skillset{
-    display:grid;
-    grid-template-columns: repeat(5,auto);
+#skillset {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
     justify-content: space-evenly;
     gap: 20px 20px;
 }
 
-#skillset>div{
-  padding:20px;
-  box-sizing: border-box;
-  background-color: var(--bglightedskill);
-  border-radius:10px;
-  color:var(--plight);
-  width:135px;
-  transition: transform 0.7s ease-in-out;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;  
- text-align: center;
+#skillset>div {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--bglightedskill);
+    border-radius: 10px;
+    color: var(--plight);
+    width: 135px;
+    transition: transform 0.7s ease-in-out;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    text-align: center;
 }
 
-#skillset>div:hover{
-    opacity:0.9;
+#skillset>div:hover {
+    opacity: 0.9;
     transform: scale(1.1);
     cursor: pointer;
 }
 
-#skillset img{
-    width:80px
+#skillset img {
+    width: 80px
 }
 
-#skillset div>p{
+#skillset div>p {
     text-align: center;
     font-weight: 550;
     font-size: 14px;
 }
 
-@media all and (max-width:795px){
-    #skillset{
-        grid-template-columns: repeat(3,auto);
+@media all and (max-width:795px) {
+    #skillset {
+        grid-template-columns: repeat(3, auto);
     }
-    .skillIc{
+
+    .skillIc {
         font-size: 70px;
     }
-    #skillset div>p{
+
+    #skillset div>p {
         text-align: center;
         font-weight: 550;
         font-size: 13px;
@@ -76,53 +78,58 @@
 
 }
 
-@media all and (max-width:500px){
-    #skillset{
-        grid-template-columns: repeat(2,auto);
+@media all and (max-width:500px) {
+    #skillset {
+        grid-template-columns: repeat(2, auto);
     }
-    .skillIc{
+
+    .skillIc {
         font-size: 60px;
     }
-    #skillset div>p{
+
+    #skillset div>p {
         text-align: center;
         font-weight: 550;
         font-size: 12px;
     }
-    #skill{
-        padding:0px 25px;
+
+    #skill {
+        padding: 0px 25px;
         padding-bottom: 25px;
     }
-    
-    #skill>p:first-child{
-       padding-top:25px;
-       margin-bottom:18px;
-       /* font-size: 26px; */
+
+    #skill>p:first-child {
+        padding-top: 25px;
+        margin-bottom: 18px;
+        /* font-size: 26px; */
 
     }
 }
 
-@media all and (max-width:340px){
-    .skillIc{
+@media all and (max-width:340px) {
+    .skillIc {
         font-size: 50px;
     }
-    #skillset div>p{
+
+    #skillset div>p {
         text-align: center;
         font-weight: 550;
         font-size: 11px;
     }
 
-    #skillset>div{
-        width:120px;
+    #skillset>div {
+        width: 120px;
     }
 }
 
-@media all and (max-width:280px){
-    #skillset{
-        grid-template-columns: repeat(1,auto)
+@media all and (max-width:280px) {
+    #skillset {
+        grid-template-columns: repeat(1, auto)
     }
 }
-@media all and (max-width:450px){
-    #skill>p:first-child{
-        font-size:27px;
+
+@media all and (max-width:450px) {
+    #skill>p:first-child {
+        font-size: 27px;
     }
 }

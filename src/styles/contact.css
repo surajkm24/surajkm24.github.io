@@ -1,0 +1,29 @@
+#contact {
+    background-color: var(--bglightproject);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    padding-bottom: 50px;
+    /* transition: color 1s ease-in-out; */
+}
+
+#contact>p:first-child {
+    font-size: 30px;
+    font-weight: 700; 
+    text-align: center;
+    color: var(--plight);
+    padding-top: 50px;
+}
+
+#contact>p:first-child>span {
+    color: var(--namelight);
+}
+
+#contImg{
+    width:100%;
+    margin-top: 40px;
+}
+
+#contImg>img{
+    width:100%;
+}
