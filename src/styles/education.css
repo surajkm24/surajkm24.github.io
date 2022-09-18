@@ -79,12 +79,12 @@
 .educardDet>p:first-child{
     color:var(--namelight);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .educardDet>p:nth-child(2){
     color:var(--plight);
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 7px;
 }
 
@@ -188,12 +188,12 @@
     .educardDet>p:first-child{
         color:var(--namelight);
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
     }
     .educardDet>p:nth-child(2){
         color:var(--plight);
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
         margin-top: 5px;
     }
     
@@ -215,3 +215,9 @@
     }
 
 }
+
+@media all and (max-width:450px){
+    #education>p:first-child{
+        font-size:26px;
+    }
+} 

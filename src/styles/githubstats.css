@@ -1,0 +1,28 @@
+* {
+    /* transition: background-color 1s ease-in-out, color 1s ease-in-out */
+}
+
+#githubstats {
+    background-color: var(--bglight2stats);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    padding-bottom: 50px;
+}
+
+#githubstats>p:first-child {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--plight);
+    padding-top: 50px;
+}
+
+#githubstats>p:first-child>span {
+    color: var(--namelight);
+}
+
+#githubstats>p:first-child>#gitStIc {
+    transition: none !important;
+    color:var(--icColor)
+}

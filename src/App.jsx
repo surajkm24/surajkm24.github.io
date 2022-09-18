@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar'
 import { Education } from './components/Education'
 import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
+import { GithubStats } from './components/GithubStats'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <GithubStats />
     </div>
   )
 }

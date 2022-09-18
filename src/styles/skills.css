@@ -40,7 +40,7 @@
   border-radius:10px;
   color:var(--plight);
   width:135px;
-  transition: transform 0.7s ease-in-out,background 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;  
  text-align: center;
 }
@@ -119,5 +119,10 @@
 @media all and (max-width:280px){
     #skillset{
         grid-template-columns: repeat(1,auto)
+    }
+}
+@media all and (max-width:450px){
+    #skill>p:first-child{
+        font-size:27px;
     }
 }

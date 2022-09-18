@@ -1,5 +1,5 @@
 *{
-    transition: background-color 1s ease-in-out, color 1s ease-in-out
+    /* transition: background-color 1s ease-in-out, color 1s ease-in-out */
 }
 
 #about{
@@ -39,17 +39,15 @@ margin-bottom:15px;
 
 #mysitem>p{
   color:var(--plight);
-  font-size: 13.5px;
-  font-weight: 450;
+  font-size: 13.7px;
   text-align: justify;
   opacity: 0.9;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
 
 #mysitem>p>span{
     color:var(--namelight);
-    font-weight: 500;
 }
 
 #myimg{
@@ -66,7 +64,8 @@ margin-bottom:15px;
 
 @media all and (min-width:765px){
     #mysitem>p{
-        font-size: 14.2px;;
+        font-size: 14.2px;
+        font-weight: 600;
     }
 }
 
@@ -119,5 +118,10 @@ margin-bottom:15px;
     }
     #about>p:first-child{
         padding-top:25px;
+    }
+}
+@media all and (max-width:450px){
+    #about>p:first-child{
+        font-size:27px;
     }
 }

@@ -16,7 +16,7 @@ export const Navbar = () => {
     const closeDrawer = () => {
         setTimeout(() => {
             setDrawer(false)
-        }, 400)
+        }, 800)
         if (drawer) {
             let drawerCont = document.getElementsByClassName('drawerCont')[0]
             drawerCont.style.transition = '1s linear'
