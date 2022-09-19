@@ -28,7 +28,8 @@ export const GithubStats = () => {
             </div>
         </div>
         <div className='calender' ref={calender}>
-
+            {light ? <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/contributions.png' />
+                : <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/contributions%20(1).png' />}
         </div>
     </div>
 }

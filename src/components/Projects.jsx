@@ -20,6 +20,7 @@ export const Projects = () => {
                     BlueMercury.com, which is an e-commerce website providing cosmetic items and other services
                     like in-store Spa, Massage etc. Users can signup, login and browse the attractive homepage of
                     the website. It is built using React, ChakraUI, CSS and React Router.
+                    <p><span>Tech Stack: </span>React, ChakraUI, CSS and React-Router.</p>
                 </p>
                 <div className='prCardTs'>
                     <SiReact style={{ color: "#53c1de" }} className='tsIc' />
@@ -42,7 +43,7 @@ export const Projects = () => {
                 <p>This website is a clone of GeekBuying.com which is an e-commerce website
                     dealing in a variuos types of items with a specialization in electronics. Users can signup, login, explore products, add to cart, checkout and much more
                     in this project. It is built using pure HTML, CSS and Vanilla JavaScript only. Authentication is implemented using localStorage.
-
+                    <p><span>Tech Stack: </span>HTML, CSS and JavaScript.</p>
                 </p>
                 <div className='prCardTs'>
                     <SiHtml5 style={{ color: "#ef662a" }} className='tsIc' />
@@ -64,6 +65,7 @@ export const Projects = () => {
                 <p>This website is a clone of boAt.com which is one of India's finest e-commerce website
                     for world's best headphones. Users can signup, login, explore products, add to cart, apply discount and much more
                     in this project. It is built using pure HTML, CSS and Vanilla JavaScript only. Authentication is implemented using localStorage.
+                    <p><span>Tech Stack: </span>HTML, CSS and JavaScript.</p>
                 </p>
                 <div className='prCardTs'>
                     <SiHtml5 style={{ color: "#ef662a" }} className='tsIc' />

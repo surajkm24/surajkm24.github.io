@@ -66,6 +66,15 @@
     font-weight: 500;
 }
 
+.prCardContent>p:nth-child(2)>p{
+    margin-top:5px
+}
+
+.prCardContent>p:nth-child(2)>p>span{
+    color:var(--namelight);
+    font-weight: 600;
+}
+
 .prCardTs {
     display: flex;
     gap: 10px;
@@ -117,6 +126,10 @@
 @media all and (max-width:1040px) {
     .projectCard {
         display: grid;
+    }
+
+    #projects>.projectCard:nth-child(odd)>.prCardImg{
+        order:0;
     }
 
     .prCardImg {

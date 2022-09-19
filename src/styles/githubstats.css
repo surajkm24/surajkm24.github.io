@@ -42,7 +42,23 @@
     max-width: 100%;
     border-radius: 10px;
 }
-
+.calender{
+    width:80%;
+    margin:auto;
+    background:var(--rolelight);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    padding:20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.calender>img{
+background:var(--rolelight);
+border-radius: 10px;
+max-width: 100%;
+}
 @media all and (max-width:950px) {
     #statCont {
         flex-direction: column;
@@ -55,12 +71,18 @@
         width: 75%;
         min-height: 200px;
     }
+    .calender{
+        width:75%
+    }
 }
 
 @media all and (max-width:770px) {
     #statCont>div {
         width: 85%;
         min-height: 200px;
+    }
+    .calender{
+        width:85%
     }
 }
 
@@ -80,11 +102,17 @@
     #statCont{
         margin-top:20px
     }
+    .calender{
+        width:90%
+    }
 }
 
 @media all and (max-width:450px) {
     #statCont>div {
         width: 100%;
         min-height: 100px;
+    }
+    .calender{
+        width:100%
     }
 }

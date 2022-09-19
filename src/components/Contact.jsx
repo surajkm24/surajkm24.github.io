@@ -2,9 +2,10 @@ import { useContext, useState } from 'react';
 import '../styles/contact.css';
 import { ThemeContext } from '../context/ThemeContext';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
-import { MdEmail } from 'react-icons/md'
+import { MdEmail,MdCall } from 'react-icons/md'
 import { useRef } from 'react';
 import {RiContactsFill} from 'react-icons/ri';
+import {FcCallback} from 'react-icons/fc'
 
 export const Contact = () => {
     const { light } = useContext(ThemeContext);
@@ -42,8 +43,11 @@ export const Contact = () => {
         <p>Get In <span>Touch</span> <span></span><RiContactsFill/></p>
         <div id='contactCont'>
             <div id='contImg'>
-            </div>
+            </div> 
             <div id='contForm'>
+                <div id='tel'>
+                    <a href='tel:+918822076879' style={{textDecoration:"none"}}><button><MdCall/> +918822076879</button></a>
+                </div>
                 <div id='smButt'>
                     <a href='https://www.linkedin.com/in/surajkm24/' target='_blank' style={{ textDecoration: "none" }}><button className='smButIc' style={{ background: light ? "#00a0dc" : "#9bdaf3", color: light ? "white" : "black" }}><BsLinkedin /> LinkedIn</button></a>
                     <a href='https://github.com/surajkm24' target='_blank' style={{ textDecoration: "none" }}><button className='smButIc' style={{ background: light ? "#373b41" : "#373b41", color: "white" }}><BsGithub /> GitHub</button></a>

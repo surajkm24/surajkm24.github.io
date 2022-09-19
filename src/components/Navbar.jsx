@@ -47,7 +47,7 @@ export const Navbar = () => {
             <p><a href='#'>SKILLS</a></p>
             <p><a href='#'>PROJECTS</a></p>
             <p><a href='#'>CONTACT</a></p>
-            <p><a href='#'>RESUME</a></p>
+            <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME</a></p>
             {light ? <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "#0a192f" }} onClick={() => setLight(false)}><FaMoon /></i> :
                 <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "yellow" }} onClick={() => setLight(true)}><FaSun /></i>}
         </div>
@@ -69,7 +69,7 @@ export const Navbar = () => {
                 <p><a href='#'>SKILLS</a></p>
                 <p><a href='#'>PROJECTS</a></p>
                 <p><a href='#'>CONTACT</a></p>
-                <p><a href='#'>RESUME</a></p>
+                <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME</a></p>
             </div>
         </div>
     </div>
