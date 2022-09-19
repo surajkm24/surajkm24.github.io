@@ -3,6 +3,7 @@ import { ThemeContext } from '../context/ThemeContext';
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { CgCloseR } from 'react-icons/cg';
 import { FaSun, FaMoon } from 'react-icons/fa';
+import {MdOpenInNew} from 'react-icons/md'
 import '../styles/navbar.css';
 
 export const Navbar = () => {
@@ -47,12 +48,12 @@ export const Navbar = () => {
             <p><a href='#'>SKILLS</a></p>
             <p><a href='#'>PROJECTS</a></p>
             <p><a href='#'>CONTACT</a></p>
-            <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME</a></p>
+            <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME <MdOpenInNew fontSize={17}/></a></p>
             {light ? <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "#0a192f" }} onClick={() => setLight(false)}><FaMoon /></i> :
                 <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "yellow" }} onClick={() => setLight(true)}><FaSun /></i>}
         </div>
         <div className='navDrawer' style={light ? { '--navTextHover': "black" } : { '--navTextHover': "#dc143c" }}>
-            <i className="fas" onClick={openDrawer} style={{ color: light ? "black" : "rgba(255,255,255,0.9)", fontSize: "20px", padding: "0px" }}><GiHamburgerMenu size='23px' style={{ padding: "10px 10px" }} /></i>
+            <i className="fas" onClick={openDrawer} style={{ color: light ? "black" : "rgba(255,255,255,0.9)", fontSize: "20px", padding: "0px" }}><GiHamburgerMenu size='23px' style={{ padding: "10px 10px 6px 10px" }} /></i>
             {light ? <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "#0a192f" }} onClick={() => setLight(false)}><FaMoon /></i> :
                 <i className='fas' style={{ cursor: "pointer", fontSize: "20px", color: "yellow" }} onClick={() => setLight(true)}><FaSun /></i>}
         </div>
@@ -69,7 +70,7 @@ export const Navbar = () => {
                 <p><a href='#'>SKILLS</a></p>
                 <p><a href='#'>PROJECTS</a></p>
                 <p><a href='#'>CONTACT</a></p>
-                <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME</a></p>
+                <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME <MdOpenInNew fontSize={17}/></a></p>
             </div>
         </div>
     </div>

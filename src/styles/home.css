@@ -95,7 +95,7 @@
     100% {
         width:0px;
     }
-
+ 
 }
 
 #homecontent>p:nth-child(4) {
@@ -152,7 +152,7 @@
         padding-right: 0px;
     }
 
-    #homegif {
+    #homegif { 
         width: 38%;
         padding-left: 0px;
         padding-top: 0px;
