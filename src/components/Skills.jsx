@@ -5,7 +5,7 @@ import { GiSkills } from 'react-icons/gi';
 import { SiChakraui, SiHtml5, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si'
 import { IoLogoNodejs } from 'react-icons/io5'
 
-export const Skills = () => {
+export const Skills = () => { 
   
     const { light } = useContext(ThemeContext);
 

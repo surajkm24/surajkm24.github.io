@@ -45,6 +45,7 @@
 .navButtons a:hover{
     color:white;
     background:var(--navTextHover);
+    cursor: pointer;
 }
 
 .navButtons>p:nth-child(6)>a{
@@ -124,6 +125,7 @@ i{
 .drawerCont a:hover{
     color:white;
     background:var(--navTextHover);
+    cursor: progress;
 }
 
 .drawerCont>p:last-child>a{
