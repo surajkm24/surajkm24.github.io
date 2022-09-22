@@ -42,23 +42,39 @@
     max-width: 100%;
     border-radius: 10px;
 }
-.calender{
-    width:80%;
-    margin:auto;
-    background:var(--rolelight);
-    display:flex;
+
+.calender {
+    background: var(--rolelight);
+    width: 93%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
-    padding:20px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    gap: 20px;
 }
-.calender>img{
-background:var(--rolelight);
-border-radius: 10px;
-max-width: 100%;
+
+.calender>p {
+    width: fit-content;
+    margin: auto;
+    color: var(--namelight);
+    font-size: 20px;
+    font-weight: 600;
 }
+
+.react-activity-calendar__legend-colors svg {
+    width: 1vw !important;
+    height: 1vw !important;
+}
+
+.react-activity-calendar__legend-colors svg rect {
+    width: 1vw;
+    height: 1vw;
+}
+
 @media all and (max-width:950px) {
     #statCont {
         flex-direction: column;
@@ -68,21 +84,32 @@ max-width: 100%;
     }
 
     #statCont>div {
-        width: 75%;
+        width: 90%;
         min-height: 200px;
     }
-    .calender{
-        width:75%;
+
+    .calender {
+        width: 90%;
+    }
+
+    .calender footer span,
+    .calender footer div {
+        font-size: 13px;
     }
 }
 
 @media all and (max-width:770px) {
     #statCont>div {
-        width: 85%;
+        width: 90%;
         min-height: 200px;
     }
-    .calender{
-        width:85%
+
+    .calender {
+        width: 90%
+    }
+
+    .calender>p {
+        font-size: 18px;
     }
 }
 
@@ -91,19 +118,27 @@ max-width: 100%;
         width: 90%;
         min-height: 100px;
     }
-    #githubstats{
-        padding:0px 20px;
+
+    #githubstats {
+        padding: 0px 20px;
         padding-bottom: 25px;
     }
-    #githubstats>p:first-child{
-        padding-top:25px;
+
+    #githubstats>p:first-child {
+        padding-top: 25px;
         font-size: 25px;
     }
-    #statCont{
-        margin-top:20px
+
+    #statCont {
+        margin-top: 20px
     }
-    .calender{
-        width:90%
+
+    .calender {
+        width: 90%
+    }
+
+    .calender>p {
+        font-size: 16px;
     }
 }
 
@@ -112,7 +147,12 @@ max-width: 100%;
         width: 100%;
         min-height: 100px;
     }
-    .calender{
-        width:100%
+
+    .calender {
+        width: 100%
+    }
+    .calender footer span,
+    .calender footer div {
+        font-size: 10px;
     }
 }

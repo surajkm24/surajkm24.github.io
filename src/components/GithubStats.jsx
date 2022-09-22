@@ -2,17 +2,11 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import '../styles/githubstats.css';
 import { SiGithub } from 'react-icons/si';
-import { useEffect } from 'react';
-import { useRef } from 'react';
+import GithubCalender from 'react-github-calendar';
 
 export const GithubStats = () => {
     const { light } = useContext(ThemeContext);
-    const calender = useRef()
-    // useEffect(()=>{
-    //     setTimeout(()=>{
-    //         GitHubCalendar(calender.current, "surajkm24", { responsive: true });
-    //     },10000)
-    // },[])
+
     return <div id='githubstats' style={{ '--bglightstats': light ? "#edf2f8" : "#0a192f", '--bglight2stats': light ? "white" : "#152235", '--plight': light ? 'black' : 'white', '--namelight': light ? "#dc143c" : "#64ffda", '--rolelight': light ? "#edf2f8" : "#273849" }}>
         <p>Sta<span>tis</span>tics <SiGithub id='gitStIc' fontSize={'25px'} style={{ transition: "none", '--icColor': light ? "black" : "white" }} /></p>
         <div id='statCont'>
@@ -27,9 +21,28 @@ export const GithubStats = () => {
                 }
             </div>
         </div>
-        <div className='calender' ref={calender}>
-            {light ? <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/contributions.png' />
-                : <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/contributions%20(1).png' />}
+        <div className='calender'>
+            <p>GitHub Calendar</p>
+            <GithubCalender
+                username='surajkm24'
+                blockSize={17}
+                blockRadius={8}
+                style={{ color: light ? "black" : "white" }}
+                theme={light ? {
+                    level0: "#F0F0F0",
+                    level1: "#C4EDDE",
+                    level2: "#7AC7C4",
+                    level3: "#F73859",
+                    level4: "#384259"
+                } : {
+                    level0: "#282a36",
+                    level1: "#44475a",
+                    level2: "#6fc1ff",
+                    level3: "#19f9d8",
+                    level4: "#ff4b82"
+                }}
+                fontSize={17}
+            />
         </div>
     </div>
 }
