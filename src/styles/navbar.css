@@ -15,7 +15,7 @@
     width:100vw;
     box-sizing: border-box;
     background-color: var(--backgroundnav);
-    box-shadow: 0.1px 0.1px 10px -3px var(--navTextHover)
+    /* box-shadow: 0.1px 0.1px 10px -3px var(--navTextHover) */
 }
 
 .nav>div>svg{
