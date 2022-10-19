@@ -3,7 +3,7 @@ import '../styles/projects.css';
 import { ThemeContext } from '../context/ThemeContext'
 import { GoProject } from 'react-icons/go'
 import { FaEye } from 'react-icons/fa'
-import { SiChakraui,SiNodedotjs, SiGithub, SiHtml5, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si'
+import { SiChakraui, SiNodedotjs, SiGithub, SiHtml5, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si'
 
 export const Projects = () => {
     const { light } = useContext(ThemeContext);
@@ -12,16 +12,16 @@ export const Projects = () => {
         <p>Featured <span>Projects </span> <span><GoProject /></span></p>
         <div className='projectCard'>
             <div className='prCardImg'>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(667).png' />
+                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(702).png' />
             </div>
             <div className='prCardContent'>
-                <p>TrackingTime.co - Clone</p>
+                <p >TrackingTime.co - Clone</p>
                 <p>This project is about building a full stack clone of
-                    TrackingTime.co, which is a team-oriented time tracking and project management software 
-                    product. Users can signup, login, create projects, add tasks, update tasks, track time 
+                    TrackingTime.co, which is a team-oriented time tracking and project management software
+                    product. Users can signup, login, create projects, add tasks, update tasks, track time
                     and much more. It is built using some front-end and back-end technologies listed below.
                     <p><span>Tech Stack: </span>React, ChakraUI, CSS, React-Router, Redux, NodeJS, ExpressJS,
-                    MongoDB.</p>
+                        MongoDB.</p>
                 </p>
                 <div className='prCardTs'>
                     <SiReact style={{ color: "#53c1de" }} className='tsIc' />
