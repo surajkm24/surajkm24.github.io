@@ -28,7 +28,7 @@
 
 #skillset {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(8, auto);
     justify-content: space-evenly;
     gap: 20px 20px;
 }
@@ -41,7 +41,7 @@
     color: var(--plight);
     width: 135px;
     transition: transform 0.7s ease-in-out;
-    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 6px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 16px, rgba(17, 17, 26, 0.1) 0px 1px 24px, rgba(17, 17, 26, 0.1) 0px 1px 6px;
     text-align: center;
 }
 

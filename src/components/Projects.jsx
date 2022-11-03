@@ -10,7 +10,7 @@ export const Projects = () => {
 
     return <div id='projects' style={{ '--bglightproject': light ? "#edf2f8" : "#0a192f", '--plight': light ? 'black' : 'white', '--namelight': light ? "#dc143c" : "#64ffda", '--rolelight': light ? "white" : "#152235" }}>
         <p>Featured <span>Projects </span> <span><GoProject /></span></p>
-        <div className='projectCard'>
+        <div className='projectCard' data-aos='fade-up'>
             <div className='prCardImg'>
                 <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(702).png' />
             </div>
@@ -39,7 +39,7 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className='projectCard'>
+        <div className='projectCard'data-aos='fade-up'>
             <div className='prCardImg'>
                 <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(667).png' />
             </div>
@@ -63,7 +63,7 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className='projectCard'>
+        <div className='projectCard'data-aos='fade-up'>
             <div className='prCardImg'>
                 <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/geek1.png' />
             </div>
@@ -85,7 +85,7 @@ export const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className='projectCard'>
+        <div className='projectCard'data-aos='fade-up'>
             <div className='prCardImg'>
                 <img src='https://user-images.githubusercontent.com/101391413/167382302-899da381-d361-4e1c-a259-3910a2239383.png' />
             </div>

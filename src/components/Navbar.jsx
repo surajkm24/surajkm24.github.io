@@ -66,7 +66,7 @@ export const Navbar = () => {
                 <text x='40' y='60' text-anchor="middle" fill={light ? "#dc143c" : "#64ffda"} fontSize="50px" fontWeight="640" >S</text>
             </svg>
         </div>
-        <div className='navButtons' style={light ? { '--navText': "black", '--navTextHover': "#dc143c" } : { '--navText': "rgba(255,255,255,0.9)", '--navTextHover': "#dc143c" }}>
+        <div className='navButtons' style={light ? { '--navText': "black", '--navTextHover': "#edf2f8",'--hover':"#dc143c" } : { '--navText': "rgba(255,255,255,0.9)", '--navTextHover': "#4a5d80dd",'--hover':"#64ffda"  }}>
             <p><a data-goto='home' onClick={goToSection}>HOME</a></p>
             <p><a data-goto='about' onClick={goToSection}>ABOUT</a></p>
             <p><a data-goto='skill' onClick={goToSection}>SKILLS</a></p>
@@ -87,14 +87,14 @@ export const Navbar = () => {
                 <polygon fill={light ? "#edf2f8" : '#0a192f'} className="Shape" stroke={light ? "#dc143c" : "#64ffda"} stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="39 2 0 22 0 67 39 90 78 68 78 23"></polygon>
                 <text x='40' y='60' text-anchor="middle" fill={light ? "#dc143c" : "#64ffda"} fontSize="50px" fontWeight="640" >S</text>
             </svg>
-            <div className='drawerCont' style={light ? { '--navText': "black", '--navTextHover': "#dc143c", background: "#edf2f8" } : { '--navText': "rgba(255,255,255,0.9)", '--navTextHover': "#dc143c", background: "#0a192f" }}>
+            <div className='drawerCont' style={light ? { '--navText': "black", '--navTextHover': "#edf2f8", background: "#edf2f8",'--hover':"#dc143c" } : { '--navText': "rgba(255,255,255,0.9)", '--navTextHover': "#4a5d80dd", background: "#0a192f",'--hover':"#64ffda" }}>
                 <i class="fa" onClick={closeDrawer} style={{ color: light ? "black" : "rgba(255,255,255,0.9)", fontSize: "25px", marginLeft: "250px", padding: "0px" }}><CgCloseR style={{ padding: "10px 10px" }} /></i>
                 <p><a data-goto='home' onClick={goToSection}>HOME</a></p>
                 <p><a data-goto='about' onClick={goToSection}>ABOUT</a></p>
                 <p><a data-goto='skill' onClick={goToSection}>SKILLS</a></p>
                 <p><a data-goto='projects' onClick={goToSection}>PROJECTS</a></p>
                 <p><a data-goto='contact' onClick={goToSection}>CONTACT</a></p>
-                <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME <MdOpenInNew fontSize={17} /></a></p>
+                <p><a href='https://drive.google.com/file/d/1ebW7gjyNV3ZvH6nkVRSnpiTZXAJqaLXC/view' target='_blank'>RESUME <MdOpenInNew fontSize={17} style={{padding:"0px",margin:"0px"}}/></a></p>
             </div>
         </div>
     </div>

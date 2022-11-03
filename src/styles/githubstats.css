@@ -110,7 +110,7 @@
         font-size: 13px;
     }
     .contribution{
-        width:90%;
+        width:90%; 
     }
 }
 
@@ -169,7 +169,7 @@
     }
     .calender footer span,
     .calender footer div {
-        font-size: 10px;
+        font-size: 8px;
     }
     .contribution{
         width:100%;

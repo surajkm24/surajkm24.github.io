@@ -1,8 +1,7 @@
-import { useContext } from 'react';
+import { useContext,useEffect } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import '../styles/about.css';
 import {GoTriangleRight}  from 'react-icons/go'
-
 
 export const About = () => {
 
@@ -11,8 +10,8 @@ export const About = () => {
     return <div id='about' style={{ '--bglightabout': light ? "white" : "#152235", '--plight': light ? 'black' : 'white', '--namelight': light ? "#dc143c" : "#64ffda", '--rolelight': light ? "" : "#dc143c" }}>
         <p>About </p>
         <div id='aboutcontent'>
-            <div id='myselfdesc'>
-                <div id='mysitem'>
+            <div id='myselfdesc' data-aos='zoom-in'>
+                <div id='mysitem' >
                     <div><GoTriangleRight  style={{color:light?"#dc143c":"#64ffda",fontSize:"20px"}}/></div>
                     <p> Hello! My name is <span>Suraj Kumar Mishra</span>
                     &nbsp;and I am from <span>Darrang, Assam(India).</span></p>

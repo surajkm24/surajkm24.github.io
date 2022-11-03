@@ -3,7 +3,7 @@
     width: 100vw;
     box-sizing: border-box;
     padding: 0px 40px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     /* transition: color 1s ease-in-out; */
 }
 
@@ -177,13 +177,13 @@
 }
 
 @media all and (min-width:795px) {
-    #contactCont {
+    /* #contactCont {
         display: flex;
         gap: 20px;
         align-items: center;
         margin-top: 36px;
         justify-content: space-between;
-    }
+    } */
 
     #contImg {
         width: 45%;
@@ -205,13 +205,13 @@
         padding-right: 6vw;
     }
 
-    #contactCont {
+    /* #contactCont {
         display: flex;
         gap: 20px;
         align-items: center;
         margin-top: 44px;
         justify-content: space-between;
-    }
+    } */
 
     #contImg {
         width: 50%;
