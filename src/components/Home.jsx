@@ -37,7 +37,7 @@ export const Home = () => {
             <p>I'm a <span>&nbsp;Full Stack Developer.</span></p>
             <p>An ambitious, self motivated and result driven full stack web developer dedicated to building and optimizing user-focused websites and applications. Able to work under pressure with minimal supervision. A quick learner who can absorb new ideas and can communicate them clearly and effectively.</p>
             <div className='homeCont'>
-                <a href='/assets/Suraj_Kumar_Mishra.27d24528.pdf' style={{ textDecoration: "none" }} download='Suraj_Kumar_Mishra_Resume'>
+                <a href='/Suraj_Kumar_Mishra_Resume.pdf' style={{ textDecoration: "none" }} download='Suraj_Kumar_Mishra_Resume'>
                     <button>Resume <i>
                         <BiDownload />
                     </i></button>
