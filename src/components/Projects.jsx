@@ -3,7 +3,10 @@ import '../styles/projects.css';
 import { ThemeContext } from '../context/ThemeContext'
 import { GoProject } from 'react-icons/go'
 import { FaEye } from 'react-icons/fa'
-import { SiChakraui, SiNodedotjs, SiGithub, SiHtml5, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si'
+import { SiChakraui, SiNodedotjs, SiGithub, SiHtml5, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si';
+import geekBuying from '../assets/geek1.png';
+import blueMercury from '../assets/Screenshot (667).png';
+import trackTime from '../assets/Screenshot (702).png'
 
 export const Projects = () => {
     const { light } = useContext(ThemeContext);
@@ -12,7 +15,7 @@ export const Projects = () => {
         <p>Featured <span>Projects </span> <span><GoProject /></span></p>
         <div className='projectCard' >
             <div className='prCardImg'>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(702).png' />
+                <img src={trackTime} />
             </div>
             <div className='prCardContent'>
                 <p >TrackingTime.co - Clone</p>
@@ -41,7 +44,7 @@ export const Projects = () => {
         </div>
         <div className='projectCard'>
             <div className='prCardImg'>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/Screenshot%20(667).png' />
+                <img src={blueMercury} />
             </div>
             <div className='prCardContent'>
                 <p>BlueMercury.com - Clone</p>
@@ -65,7 +68,7 @@ export const Projects = () => {
         </div>
         <div className='projectCard'>
             <div className='prCardImg'>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/geek1.png' />
+                <img src={geekBuying} />
             </div>
             <div className='prCardContent'>
                 <p>GeekBuying.com - Clone</p>
