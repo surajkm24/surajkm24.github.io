@@ -44,10 +44,5 @@ export const GithubStats = () => {
                 fontSize={17}
             />
         </div>
-        <div className='contribution' data-aos='zoom-in'>
-            {light ? <img src='https://activity-graph.herokuapp.com/graph?username=surajkm24&theme=minimal&bg_color=edf2f8' />
-                : <img src='https://activity-graph.herokuapp.com/graph?username=surajkm24&theme=nord&hide_border=true&bg_color=0a192f' />
-            }
-        </div>
     </div>
 }

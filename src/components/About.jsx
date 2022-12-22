@@ -2,6 +2,7 @@ import { useContext,useEffect } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import '../styles/about.css';
 import {GoTriangleRight}  from 'react-icons/go'
+import myImg from '../assets/myImg.jpg'
 
 export const About = () => {
 
@@ -47,7 +48,7 @@ export const About = () => {
                 </div>
             </div>
             <div id='myimg'>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/myImg.jpg'/>
+                <img src={myImg}/>
             </div>
         </div>
     </div>
