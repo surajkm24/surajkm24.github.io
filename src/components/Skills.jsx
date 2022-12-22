@@ -3,7 +3,9 @@ import { ThemeContext } from '../context/ThemeContext'
 import '../styles/skills.css';
 import { GiSkills } from 'react-icons/gi';
 import { SiChakraui, SiHtml5, SiTypescript, SiCss3, SiJavascript, SiReact, SiReactrouter, SiHeroku, SiRedux, SiVercel, SiExpress, SiMongodb, SiGit, SiNetlify } from 'react-icons/si'
-import { IoLogoNodejs } from 'react-icons/io5'
+import { IoLogoNodejs } from 'react-icons/io5';
+import mongoose from '../assets/mongoose.png';
+import reactRouter from '../assets/router-ii.png';
 
 export const Skills = () => {
     const [{ all, front, back }, showSkills] = useState({ all: true, front: false })
@@ -54,7 +56,7 @@ export const Skills = () => {
                 <p>React</p>
             </div>
             <div  style={{ display: all ? "block" : front ? "block" : "none" }}>
-                <img src='https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/router-ii.png' />
+                <img src={reactRouter} />
                 <p>React Router</p>
             </div>
             <div  style={{ display: all ? "block" : front ? "block" : "none" }}>
@@ -94,7 +96,7 @@ export const Skills = () => {
                 <p>Heroku</p>
             </div>
             <div  style={{ display: all ? "block" : !front ? "block" : "none" }}>
-                <img src="https://raw.githubusercontent.com/surajkm24/surajkm24.github.io/master/assets/mongoose.png" />
+                <img src={mongoose} />
                 <p>Mongoose</p>
             </div>
         </div>
